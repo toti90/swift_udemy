@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3814D7A6228361190030D33E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3814D7A5228361190030D33E /* Item.swift */; };
 		38C1C5742282CE4F00BB4761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C1C5732282CE4F00BB4761 /* AppDelegate.swift */; };
 		38C1C5762282CE4F00BB4761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C1C5752282CE4F00BB4761 /* ViewController.swift */; };
 		38C1C5792282CE4F00BB4761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C1C5772282CE4F00BB4761 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3814D7A5228361190030D33E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../Item.swift; sourceTree = "<group>"; };
 		38C1C5702282CE4F00BB4761 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C1C5732282CE4F00BB4761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C1C5752282CE4F00BB4761 /* ViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3814D7A72283613A0030D33E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3814D7A5228361190030D33E /* Item.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		38C1C5672282CE4F00BB4761 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				38C1C57A2282CE5200BB4761 /* Assets.xcassets */,
 				38C1C57C2282CE5200BB4761 /* LaunchScreen.storyboard */,
 				38C1C57F2282CE5200BB4761 /* Info.plist */,
+				3814D7A72283613A0030D33E /* New Group */,
 			);
 			path = Todoey;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C1C5762282CE4F00BB4761 /* ViewController.swift in Sources */,
+				3814D7A6228361190030D33E /* Item.swift in Sources */,
 				38C1C5742282CE4F00BB4761 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
